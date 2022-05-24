@@ -25,9 +25,6 @@ function renderLicenseBadge(license) {
     case 'Unlicense':
       return '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)';
       break;
-    case 'WTFPL':
-      return '[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)';
-      break;
     default:
       return '';
       break;
@@ -55,9 +52,6 @@ function renderLicenseLink(license) {
       break;
     case 'Unlicense':
       return 'http://unlicense.org/';
-      break;
-    case 'WTFPL':
-      return 'http://www.wtfpl.net/about/';
       break;
     default:
       return '';
@@ -203,22 +197,6 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>`;
-      break;
-    case 'WTFPL':
-      return `
-      DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-                  Version 2, December 2004 
-
-Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
-
-Everyone is permitted to copy and distribute verbatim or modified 
-copies of this license document, and changing it is allowed as long 
-as the name is changed. 
-
-DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
-
-0. You just DO WHAT THE FUCK YOU WANT TO.`;
       break;
     default:
       return '';

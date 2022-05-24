@@ -31,7 +31,12 @@ const questions = () => {
             type: 'list',
             message: 'What kind of license should your project have?',
             name: 'license',
-            choices: ['Open Source', 'MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 2', 'BSD 3', 'Unlicense', 'WTFPL'],
+        },
+        {
+            type: 'input',
+            name: 'year',
+            message: 'The year you want on your license notice:',
         },
         {
             type: 'input',

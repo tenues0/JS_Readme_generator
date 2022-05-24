@@ -1,1 +1,5 @@
-node_modules
+# ignore node modules
+node_modules/
+
+# ignore .DS_Store
+.DS_Store/

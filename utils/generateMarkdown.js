@@ -253,13 +253,13 @@ ${data.usage}
 ${data.contribution}
 
 ## Install
-
+\`\`\`
 ${data.install}
-
+\`\`\`
 ## Tests
-
+\`\`\`
 ${data.tests}
-
+\`\`\`
 ## Username
 
 ${data.username}

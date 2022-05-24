@@ -40,6 +40,11 @@ const questions = () => {
         },
         {
             type: 'input',
+            name: 'realname',
+            message: 'Please type in the name you want on the license notice (first name and last name):',
+        },
+        {
+            type: 'input',
             name: 'install',
             message: 'What command should be run to install dependencies?',
         },
